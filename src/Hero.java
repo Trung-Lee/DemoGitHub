@@ -12,4 +12,5 @@ public class Hero {
     }
     public void getHeal() {
         System.out.println(this.name + " get Healed " + (this.health + 10));
+    }
 }
