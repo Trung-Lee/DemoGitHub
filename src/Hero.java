@@ -10,4 +10,6 @@ public class Hero {
     public void getHit() {
         System.out.println(this.name + " Huhhhhh " + (this.health - 10));
     }
+    public void getHeal() {
+        System.out.println(this.name + " get Healed " + (this.health + 10));
 }
